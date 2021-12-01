@@ -21,6 +21,7 @@ protected:
 private:
     Ui::MainWindow *ui;
 
+    QString shortMonthTextToMonthNumber(QString shortMonth);
     QString parseFile(const QString &filePath);
     QString expenseToString(const QDate &date, const QRegularExpressionMatch &match);
     QString expenseFCToString(const QDate &date, const QRegularExpressionMatch &match);
