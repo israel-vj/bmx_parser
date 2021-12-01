@@ -3,3 +3,6 @@ release
 deploy
 Makefile*
 *.pro.user*
+ui_*.h
+user*appdatalocaltemptmp*
+.qmake.stash
